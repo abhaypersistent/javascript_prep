@@ -1,0 +1,45 @@
+.mainDiv{
+    /* display: flex; */
+    gap: 10px;
+}
+
+.marg-bottom{
+    margin-bottom: 10px;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 10px;
+    column-gap: 5px;
+}
+
+.seat-booked{
+    height: 20px;
+    width: 20px;
+    background: rgb(147, 141, 141);
+    text-align: center;
+}
+
+.seat-vaccant {
+    height: 20px;
+    width: 20px;
+    background: rgb(71, 131, 83);
+    text-align: center;
+}
+.seat-blocked {
+    height: 20px;
+    width: 20px;
+    background: rgb(220, 13, 13);
+    text-align: center;
+}
+
+.parcially-boocked {
+    height: 20px;
+    width: 20px;
+    background: rgb(209, 219, 102);
+    text-align: center;
+}
+.no-seat {
+    height: 20px;
+    width: 20px;
+}

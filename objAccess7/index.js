@@ -31,5 +31,5 @@ let obj1 = {
     j : 9
 }
 
-obj.j = 11;
+obj.j = 9;
 
