@@ -133,11 +133,6 @@ export const BookingData = [
                         bootingType: "vacant",
                     },
                     {
-                        id:5,
-                        seatNumber : 5,
-                        bootingType: "vacant",
-                    },
-                    {
                         id:6,
                         seatNumber : '',
                         bootingType: "no_seat",
@@ -146,6 +141,11 @@ export const BookingData = [
                         id:8,
                         seatNumber : '',
                         bootingType: "no_seat",
+                    },
+                    {
+                        id:9,
+                        seatNumber : 9,
+                        bootingType: "vacant",
                     }
                 ]
             }
