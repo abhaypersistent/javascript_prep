@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+#output{
+    font-size: 40px;
+    flood-color: gray;
+    margin-bottom: 40px;
+    
+}
+
+
+
+.btn-normal{
+    border: 1px solid green;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background: antiquewhite;
+    cursor: pointer;
+}
+
