@@ -1,0 +1,23 @@
+.box{
+    height: 50px;
+    width: 50px;
+}
+
+.flex-display{
+    display: flex;
+    justify-content: center;
+}
+
+.border-class{
+    border: 3px solid black;;
+}
+
+.true-color{
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.false-color{
+    background-color: black;
+    border-bottom: 1px solid white;
+}

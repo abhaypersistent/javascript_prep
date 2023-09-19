@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex{
+            display: flex;
+        }
+        .center{
+            /* justify-content: center;
+             */
+             align-items: center;
+            margin-top: 50px;
+        }
+        .text-main{
+            margin-right: 20px;
+        }
+        .value-indicator{
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="center">
+            <label class="text-main" for=""
+            >PassWord</label>
+            <input 
+            type="text"
+            min="8"
+            max="32"
+            id="passwordText"
+            placeholder="Please enter your Password"
+            autocomplete="off"
+            >
+            
+        </div>
+        <div class="value-indicator">
+            <div>Lowercase</div>
+            <div>Uppercase</div>
+            <div>Number</div>
+            <div>Symbol</div>
+        </div>
+    </div>
+        <script src="index.js"></script>
+</body>
+</html>
