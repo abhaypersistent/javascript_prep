@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#grid{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row-grid{
+    display: flex;
+    gap: 4px;
+}
+
+.row-grid > div {
+    border: 1px solid black;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    background-color: beige;
+    border: none;
+}
