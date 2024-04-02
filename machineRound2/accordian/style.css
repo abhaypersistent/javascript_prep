@@ -1,0 +1,40 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main-container-headline{
+    margin-bottom: 50px;
+}
+
+.accordian-header{
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    width: 80%;
+}
+
+.accordian-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    width: 90%;
+}
+
+.accordian-content{
+    max-height: 0;
+    overflow: hidden;
+    width: 80%;
+}
+
+.accordian-header{
+    cursor: pointer;
+}
+
+.active {
+    max-height: 120px !important;
+}
