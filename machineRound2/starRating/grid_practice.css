@@ -1,0 +1,104 @@
+/* .container{ */
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
+    /* grid-template-columns: 80px 200px auto 40px; */
+    /* grid-template-rows: 200px auto; */
+    /* gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+} */
+
+/* .item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+} */
+
+/* .container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #219653;
+    padding: 10px;
+}
+
+.container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+.item{
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */
+
+/* grid : convert into the row */
+/* grid vs inline-grid */
+/* inline grid will take only available space needed depend upon the content
+
+*/
+
+.container{
+    background-color: indianred;
+    padding: 20px;
+    display: grid;
+    /* grid-template-columns: 200px 400px auto; */
+    /* grid-template-columns: 200px 300px 200px; */
+    /* grid-template-columns: auto auto auto auto auto; */
+    /* display: inline-grid; */
+    /* grid-template-rows: 100px 200px auto; */
+    /* grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: space-evenly; */
+    /* height: 400px; */
+    /* align-content: space-around; */
+    grid-template-areas: 
+    'header header header header header header'
+    'menu main main main  right right'
+    'menu footer footer footer footer footer'
+    ;
+    grid-gap: 10px;
+}
+
+.item{
+    background-color: wheat;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* #grid1{ */
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-column: 1/3; */
+    /* grid-column: 1 / span 3; */
+    /* grid-row-start: 1;
+    grid-row-end: 5; */
+    /* grid-row: 1/3; */
+    /* grid-row: 1 span 4; */
+/* } */
+
+/* #grid5{ */
+    /* grid-area: 1/2/4/5; */
+    /* grid-area: 1/2/ span 2 / span 3; */
+/* } */
+
+#grid1{
+  grid-area: header;   
+}
+#grid2{
+  grid-area: menu;   
+}
+#grid3{
+  grid-area: main;   
+}
+#grid4{
+  grid-area: right;   
+}
+#grid5{
+  grid-area: footer;   
+}
